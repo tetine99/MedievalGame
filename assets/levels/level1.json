@@ -1,0 +1,22 @@
+{
+    "assets": { 
+        "Tileset": { "type": "image", "source": "assets/images/Tileset.png"},
+        "tiles_spritesheet": { "type": "image", "source": "assets/images/tiles_spritesheet.png" },
+        "hero": {"type": "spritesheet","source": "assets/images/hero.png","frame_width": 16,"frame_height": 16,"frames": 56,"margin": 0,"spacing": 0 },
+        "slime": {"type": "image","source": "assets/images/slime.png"},
+        "fly_spritesheet": { "type": "spritesheet","source": "assets/images/fly_spritesheet.png","frame_width": 37,"frame_height": 20,"frames": 2},
+        "goal": {"type": "image","source": "assets/images/goal.png"},
+		"checkpoint": { "type": "spritesheet","source": "assets/images/checkpoint.png" ,"frame_width": 35,"frame_height": 35,"frames": 2},
+        "level_tilemap": {"type": "tilemap","source": "assets/maps/level1.json"}
+    },
+    "groups": [
+        "enemies",
+        "goals",
+        "players",
+		"checkpoints"
+    ],
+    "map": {
+        "key": "level_tilemap",
+        "tileset": ["Tileset"]
+    }
+}
