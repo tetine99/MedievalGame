@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982ec029-68bf-4e6b-824c-fcb54f0dfc57" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Tileset.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/fly_spritesheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/hero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/slime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/tiles_spritesheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/maps/Tileset1.tsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/maps/Tileset2.tsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/maps/fly_spritesheet.tsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/maps/hero.tsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/maps/level2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/maps/level2.tmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/maps/slime.tsx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/coin.png" afterPath="$PROJECT_DIR$/assets/images/coin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/levels/level1.json" afterPath="$PROJECT_DIR$/assets/levels/level1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/maps/coin.tsx" afterPath="$PROJECT_DIR$/assets/maps/coin.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/maps/level1.json" afterPath="$PROJECT_DIR$/assets/maps/level1.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/maps/level1.tmx" afterPath="$PROJECT_DIR$/assets/maps/level1.tmx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/maps/level2.json" afterPath="$PROJECT_DIR$/assets/maps/level2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/maps/level2.tmx" afterPath="$PROJECT_DIR$/assets/maps/level2.tmx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prefabs/Coin.js" afterPath="$PROJECT_DIR$/js/prefabs/Coin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prefabs/Goal.js" afterPath="$PROJECT_DIR$/js/prefabs/Goal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prefabs/Player.js" afterPath="$PROJECT_DIR$/js/prefabs/Player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/prefabs/Score.js" afterPath="$PROJECT_DIR$/js/prefabs/Score.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/states/Boot.js" afterPath="$PROJECT_DIR$/js/states/Boot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/states/LoadingState.js" afterPath="$PROJECT_DIR$/js/states/LoadingState.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/states/TiledState.js" afterPath="$PROJECT_DIR$/js/states/TiledState.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,41 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lives.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/prefabs/Lives.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/prefabs/Player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enemy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/prefabs/Enemy.js">
+      <file leaf-file-name="Prefab.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/prefabs/Prefab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroundEnemy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/prefabs/GroundEnemy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,18 +55,28 @@
       <file leaf-file-name="LoadingState.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/states/LoadingState.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TiledState.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GroundEnemy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/prefabs/GroundEnemy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TiledState.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/states/TiledState.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="526">
+              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -90,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/js/prefabs/Goal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/js/prefabs/Checkpoint.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,12 +112,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunningEnemy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/prefabs/RunningEnemy.js">
+      <file leaf-file-name="level1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/levels/level1.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="606">
+              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/maps/level1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4539">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1517586102313" expanded="true" signature="0:67035" ph="{&quot;height&quot;: 50...}" />
+                <marker date="1517586102313" expanded="true" signature="44:63386" ph="[...]" />
+                <marker date="1517586102313" expanded="true" signature="61508:63385" ph="{&quot;name&quot;: &quot;Objects&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="61588:63265" ph="[...]" />
+                <marker date="1517586102313" expanded="true" signature="61606:62526" ph="{&quot;id&quot;: 2...}" />
+                <marker date="1517586102313" expanded="true" signature="62569:62599" ph="{&quot;id&quot;: 3...}" />
+                <marker date="1517586102313" expanded="true" signature="62618:63264" ph="{&quot;id&quot;: 5...}" />
+                <marker date="1517586102313" expanded="true" signature="62793:62904" ph="{&quot;group&quot;: &quot;checkpoints&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="62960:63062" ph="{&quot;group&quot;: &quot;string&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="63520:66973" ph="[...]" />
+                <marker date="1517586102313" expanded="true" signature="63530:63834" ph="{&quot;name&quot;: &quot;blackmage&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="63845:64148" ph="{&quot;name&quot;: &quot;monster1&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="64159:64465" ph="{&quot;name&quot;: &quot;monster2&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="64476:64783" ph="{&quot;name&quot;: &quot;monster3&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="64794:65099" ph="{&quot;name&quot;: &quot;monster4&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="65110:65418" ph="{&quot;name&quot;: &quot;monster5&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="65429:65724" ph="{&quot;name&quot;: &quot;coin&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="65735:66036" ph="{&quot;name&quot;: &quot;items&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="66047:66341" ph="{&quot;name&quot;: &quot;goal&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="66352:66655" ph="{&quot;name&quot;: &quot;castle&quot;...}" />
+                <marker date="1517586102313" expanded="true" signature="66666:66972" ph="{&quot;name&quot;: &quot;checkpoint&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +169,7 @@
       <find>player</find>
       <find>conso</find>
       <find>update_lives</find>
+      <find>castle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,9 +185,11 @@
         <option value="$PROJECT_DIR$/js/prefabs/Score.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/prefabs/Lives.js" />
-        <option value="$PROJECT_DIR$/js/prefabs/Player.js" />
         <option value="$PROJECT_DIR$/js/prefabs/Goal.js" />
+        <option value="$PROJECT_DIR$/assets/levels/level1.json" />
         <option value="$PROJECT_DIR$/js/states/TiledState.js" />
+        <option value="$PROJECT_DIR$/assets/maps/level1.json" />
+        <option value="$PROJECT_DIR$/js/prefabs/Player.js" />
       </list>
     </option>
   </component>
@@ -197,6 +228,17 @@
             <path>
               <item name="MedievalGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="MedievalGame" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MedievalGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedievalGame" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="MedievalGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MedievalGame" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="levels" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="MedievalGame" type="b2602c69:ProjectViewProjectNode" />
@@ -248,18 +290,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517558651756</updated>
-      <workItem from="1517558653228" duration="13076000" />
+      <workItem from="1517558653228" duration="18392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13076000" />
+    <option name="totallyTimeSpent" value="18392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-321" width="1874" height="1096" extended-state="6" />
+    <frame x="-1928" y="-321" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18353067" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -307,14 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/prefabs/Prefab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/states/Boot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -339,14 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/prefabs/GroundEnemy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/prefabs/RunningEnemy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -366,15 +392,7 @@
     <entry file="file://$PROJECT_DIR$/js/prefabs/Lives.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/prefabs/Player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -382,7 +400,15 @@
     <entry file="file://$PROJECT_DIR$/js/prefabs/Checkpoint.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/prefabs/Goal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -395,26 +421,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/prefabs/Goal.js">
+    <entry file="file://$PROJECT_DIR$/assets/maps/level1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="-4539">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517586102313" expanded="true" signature="0:67035" ph="{&quot;height&quot;: 50...}" />
+            <marker date="1517586102313" expanded="true" signature="44:63386" ph="[...]" />
+            <marker date="1517586102313" expanded="true" signature="61508:63385" ph="{&quot;name&quot;: &quot;Objects&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="61588:63265" ph="[...]" />
+            <marker date="1517586102313" expanded="true" signature="61606:62526" ph="{&quot;id&quot;: 2...}" />
+            <marker date="1517586102313" expanded="true" signature="62569:62599" ph="{&quot;id&quot;: 3...}" />
+            <marker date="1517586102313" expanded="true" signature="62618:63264" ph="{&quot;id&quot;: 5...}" />
+            <marker date="1517586102313" expanded="true" signature="62793:62904" ph="{&quot;group&quot;: &quot;checkpoints&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="62960:63062" ph="{&quot;group&quot;: &quot;string&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="63520:66973" ph="[...]" />
+            <marker date="1517586102313" expanded="true" signature="63530:63834" ph="{&quot;name&quot;: &quot;blackmage&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="63845:64148" ph="{&quot;name&quot;: &quot;monster1&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="64159:64465" ph="{&quot;name&quot;: &quot;monster2&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="64476:64783" ph="{&quot;name&quot;: &quot;monster3&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="64794:65099" ph="{&quot;name&quot;: &quot;monster4&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="65110:65418" ph="{&quot;name&quot;: &quot;monster5&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="65429:65724" ph="{&quot;name&quot;: &quot;coin&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="65735:66036" ph="{&quot;name&quot;: &quot;items&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="66047:66341" ph="{&quot;name&quot;: &quot;goal&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="66352:66655" ph="{&quot;name&quot;: &quot;castle&quot;...}" />
+            <marker date="1517586102313" expanded="true" signature="66666:66972" ph="{&quot;name&quot;: &quot;checkpoint&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/levels/level1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/prefabs/Prefab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/states/LoadingState.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/prefabs/GroundEnemy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/states/TiledState.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="526">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/prefabs/Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

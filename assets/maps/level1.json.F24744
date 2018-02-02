@@ -44,7 +44,7 @@
         }, 
         {
          "draworder":"topdown",
-         "name":"objects",
+         "name":"Objects",
          "objects":[
                 {
                  "gid":2554,
@@ -73,8 +73,38 @@
                  "type":"player",
                  "visible":true,
                  "width":35,
-                 "x":46.4545454545455,
-                 "y":1377.63636363636
+                 "x":28.4545454545455,
+                 "y":1380.63636363636
+                }, 
+                {
+                 "gid":2554,
+                 "height":35,
+                 "id":3,
+                 "name":"player",
+                 "properties":
+                    {
+                     "bouncing":"20",
+                     "group":"players",
+                     "jumping_speed":"500",
+                     "lives":"3",
+                     "texture":"blackmage",
+                     "walking_speed":"200"
+                    },
+                 "propertytypes":
+                    {
+                     "bouncing":"string",
+                     "group":"string",
+                     "jumping_speed":"string",
+                     "lives":"string",
+                     "texture":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"player",
+                 "visible":true,
+                 "width":35,
+                 "x":28.4545454545455,
+                 "y":1380.63636363636
                 }, 
                 {
                  "gid":2901,

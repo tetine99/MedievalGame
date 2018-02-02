@@ -12,8 +12,8 @@ MedievalGame.Player = function (game_state, position, properties) {
     this.game_state.game.physics.arcade.enable(this);
     this.body.collideWorldBounds = true;
 
-    this.animations.add("gauche", [49, 50, 51, 52, 53, 54], 10, true);
-    this.animations.add("droite", [17, 18, 19, 20, 21, 22], 10, true);
+    this.animations.add("gauche", [4, 5, 6, 7], 10, true);
+    this.animations.add("droite", [8, 9, 10, 11], 10, true);
 
     this.frame = 10;
     this.anchor.setTo(0.5);
