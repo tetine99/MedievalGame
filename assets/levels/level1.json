@@ -13,7 +13,8 @@
         "enemies",
         "goals",
         "players",
-		"checkpoints"
+		"checkpoints",
+		"hud"
     ],
     "map": {
         "key": "level_tilemap",

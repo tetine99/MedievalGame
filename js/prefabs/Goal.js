@@ -23,8 +23,8 @@ MedievalGame.Goal.prototype.update = function () {
 
 MedievalGame.Goal.prototype.reach_goal = function () {
     "use strict";
-    console.log("next level");
-    console.log(this.next_level);
     // start the next level
+    localStorage.player_lives = this.game_state.prefabs.player.lives;
+    localStorage.player_score = this.game_state.prefabs.player.score;
     this.game_state.game.state.start("BootState", true, false, this.next_level);
 };

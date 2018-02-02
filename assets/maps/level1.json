@@ -45,6 +45,7 @@
                      "bouncing":"20",
                      "group":"players",
                      "jumping_speed":"500",
+                     "lives":"3",
                      "texture":"hero",
                      "walking_speed":"200"
                     },
@@ -53,6 +54,7 @@
                      "bouncing":"string",
                      "group":"string",
                      "jumping_speed":"string",
+                     "lives":"string",
                      "texture":"string",
                      "walking_speed":"string"
                     },
@@ -61,7 +63,7 @@
                  "visible":true,
                  "width":35,
                  "x":31,
-                 "y":214.333333333333
+                 "y":214.333
                 }, 
                 {
                  "gid":484,
@@ -84,7 +86,7 @@
                  "type":"goal",
                  "visible":true,
                  "width":35,
-                 "x":596.333333333333,
+                 "x":596.333,
                  "y":217
                 }, 
                 {
@@ -96,6 +98,7 @@
                     {
                      "direction":"-1",
                      "group":"enemies",
+                     "score":"100",
                      "texture":"fly_spritesheet",
                      "walking_distance":"200",
                      "walking_speed":"75"
@@ -104,6 +107,7 @@
                     {
                      "direction":"string",
                      "group":"string",
+                     "score":"string",
                      "texture":"string",
                      "walking_distance":"string",
                      "walking_speed":"string"
@@ -112,8 +116,8 @@
                  "type":"fly_enemy",
                  "visible":true,
                  "width":35,
-                 "x":576.333333333333,
-                 "y":118.333333333333
+                 "x":576.333,
+                 "y":118.333
                 }, 
                 {
                  "gid":482,
@@ -124,6 +128,7 @@
                     {
                      "direction":"1",
                      "group":"enemies",
+                     "score":"50",
                      "texture":"slime",
                      "walking_distance":"100",
                      "walking_speed":"50"
@@ -132,6 +137,7 @@
                     {
                      "direction":"string",
                      "group":"string",
+                     "score":"string",
                      "texture":"string",
                      "walking_distance":"string",
                      "walking_speed":"string"
@@ -141,7 +147,7 @@
                  "visible":true,
                  "width":35,
                  "x":255,
-                 "y":182.333333333333
+                 "y":182.333
                 }, 
                 {
                  "gid":493,
@@ -163,7 +169,37 @@
                  "visible":true,
                  "width":35,
                  "x":327,
-                 "y":190.333333333333
+                 "y":190.333
+                }, 
+                {
+                 "gid":482,
+                 "height":35,
+                 "id":14,
+                 "name":"enemy",
+                 "properties":
+                    {
+                     "direction":"1",
+                     "group":"enemies",
+                     "score":"50",
+                     "texture":"slime",
+                     "walking_distance":"100",
+                     "walking_speed":"50"
+                    },
+                 "propertytypes":
+                    {
+                     "direction":"string",
+                     "group":"string",
+                     "score":"string",
+                     "texture":"string",
+                     "walking_distance":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"ground_enemy",
+                 "visible":true,
+                 "width":35,
+                 "x":448,
+                 "y":222.333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -171,7 +207,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":14,
+ "nextobjectid":15,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",

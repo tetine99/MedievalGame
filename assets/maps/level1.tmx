@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="14">
+<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="15">
  <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32" spacing="1" tilecount="336" columns="24">
   <image source="../images/Tileset.png" width="791" height="461"/>
  </tileset>
@@ -52,6 +52,7 @@
     <property name="bouncing" value="20"/>
     <property name="group" value="players"/>
     <property name="jumping_speed" value="500"/>
+    <property name="lives" value="3"/>
     <property name="texture" value="hero"/>
     <property name="walking_speed" value="200"/>
    </properties>
@@ -67,6 +68,7 @@
    <properties>
     <property name="direction" value="-1"/>
     <property name="group" value="enemies"/>
+    <property name="score" value="100"/>
     <property name="texture" value="fly_spritesheet"/>
     <property name="walking_distance" value="200"/>
     <property name="walking_speed" value="75"/>
@@ -76,6 +78,7 @@
    <properties>
     <property name="direction" value="1"/>
     <property name="group" value="enemies"/>
+    <property name="score" value="50"/>
     <property name="texture" value="slime"/>
     <property name="walking_distance" value="100"/>
     <property name="walking_speed" value="50"/>
@@ -85,6 +88,16 @@
    <properties>
     <property name="group" value="checkpoints"/>
     <property name="texture" value="checkpoint"/>
+   </properties>
+  </object>
+  <object id="14" name="enemy" type="ground_enemy" gid="482" x="448" y="222.333" width="35" height="35">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="group" value="enemies"/>
+    <property name="score" value="50"/>
+    <property name="texture" value="slime"/>
+    <property name="walking_distance" value="100"/>
+    <property name="walking_speed" value="50"/>
    </properties>
   </object>
  </objectgroup>

@@ -175,6 +175,7 @@
                     {
                      "direction":"-1",
                      "group":"enemies",
+                     "score":"100",
                      "texture":"fly_spritesheet",
                      "walking_distance":"200",
                      "walking_speed":"75"
@@ -183,6 +184,7 @@
                     {
                      "direction":"string",
                      "group":"string",
+                     "score":"string",
                      "texture":"string",
                      "walking_distance":"string",
                      "walking_speed":"string"
@@ -196,102 +198,6 @@
                 }, 
                 {
                  "gid":493,
-                 "height":42,
-                 "id":7,
-                 "name":"coin1",
-                 "properties":
-                    {
-                     "group":"coins",
-                     "score":"50",
-                     "texture":"coin"
-                    },
-                 "propertytypes":
-                    {
-                     "group":"string",
-                     "score":"string",
-                     "texture":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":41,
-                 "x":194,
-                 "y":223
-                }, 
-                {
-                 "gid":493,
-                 "height":42,
-                 "id":8,
-                 "name":"coin2",
-                 "properties":
-                    {
-                     "group":"coins",
-                     "score":"50",
-                     "texture":"coin"
-                    },
-                 "propertytypes":
-                    {
-                     "group":"string",
-                     "score":"string",
-                     "texture":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":41,
-                 "x":624,
-                 "y":223
-                }, 
-                {
-                 "gid":493,
-                 "height":42,
-                 "id":9,
-                 "name":"coin3",
-                 "properties":
-                    {
-                     "group":"coins",
-                     "score":"50",
-                     "texture":"coin"
-                    },
-                 "propertytypes":
-                    {
-                     "group":"string",
-                     "score":"string",
-                     "texture":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":41,
-                 "x":734,
-                 "y":93
-                }, 
-                {
-                 "gid":493,
-                 "height":42,
-                 "id":10,
-                 "name":"coin4",
-                 "properties":
-                    {
-                     "group":"coins",
-                     "score":"50",
-                     "texture":"coin"
-                    },
-                 "propertytypes":
-                    {
-                     "group":"string",
-                     "score":"string",
-                     "texture":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":41,
-                 "x":306,
-                 "y":95
-                }, 
-                {
-                 "gid":494,
                  "height":35,
                  "id":12,
                  "name":"checkpoint",
@@ -310,41 +216,297 @@
                  "visible":true,
                  "width":35,
                  "x":483,
-                 "y":223.666666666667
+                 "y":223.667
                 }, 
                 {
-                 "gid":481,
-                 "height":35,
-                 "id":14,
-                 "name":"score",
+                 "gid":495,
+                 "height":42,
+                 "id":20,
+                 "name":"coin1",
                  "properties":
                     {
-                     "group":"hud",
-                     "text":"Score: 0"
+                     "group":"coins",
+                     "score":"50",
+                     "texture":"coin"
                     },
                  "propertytypes":
                     {
                      "group":"string",
-                     "text":"string"
+                     "score":"string",
+                     "texture":"string"
                     },
                  "rotation":0,
-                 "type":"score",
+                 "type":"coin",
                  "visible":true,
-                 "width":35,
-                 "x":-1,
-                 "y":35.6666666666667
+                 "width":41,
+                 "x":188,
+                 "y":225
                 }, 
                 {
-                 "gid":481,
-                 "height":35,
-                 "id":15,
-                 "name":"",
+                 "gid":495,
+                 "height":42,
+                 "id":21,
+                 "name":"coin1",
+                 "properties":
+                    {
+                     "group":"coins",
+                     "score":"50",
+                     "texture":"coin"
+                    },
+                 "propertytypes":
+                    {
+                     "group":"string",
+                     "score":"string",
+                     "texture":"string"
+                    },
                  "rotation":0,
-                 "type":"",
+                 "type":"coin",
+                 "visible":true,
+                 "width":41,
+                 "x":188,
+                 "y":225
+                }, 
+                {
+                 "gid":495,
+                 "height":42,
+                 "id":25,
+                 "name":"coin2",
+                 "properties":
+                    {
+                     "group":"coins",
+                     "score":"50",
+                     "texture":"coin"
+                    },
+                 "propertytypes":
+                    {
+                     "group":"string",
+                     "score":"string",
+                     "texture":"string"
+                    },
+                 "rotation":0,
+                 "type":"coin",
+                 "visible":true,
+                 "width":41,
+                 "x":526.667,
+                 "y":225
+                }, 
+                {
+                 "gid":495,
+                 "height":42,
+                 "id":26,
+                 "name":"coin3",
+                 "properties":
+                    {
+                     "group":"coins",
+                     "score":"50",
+                     "texture":"coin"
+                    },
+                 "propertytypes":
+                    {
+                     "group":"string",
+                     "score":"string",
+                     "texture":"string"
+                    },
+                 "rotation":0,
+                 "type":"coin",
+                 "visible":true,
+                 "width":41,
+                 "x":693.333,
+                 "y":94.3333
+                }, 
+                {
+                 "gid":495,
+                 "height":42,
+                 "id":27,
+                 "name":"coin4",
+                 "properties":
+                    {
+                     "group":"coins",
+                     "score":"50",
+                     "texture":"coin"
+                    },
+                 "propertytypes":
+                    {
+                     "group":"string",
+                     "score":"string",
+                     "texture":"string"
+                    },
+                 "rotation":0,
+                 "type":"coin",
+                 "visible":true,
+                 "width":41,
+                 "x":146.667,
+                 "y":95.6667
+                }, 
+                {
+                 "gid":482,
+                 "height":35,
+                 "id":28,
+                 "name":"running_enemy1",
+                 "properties":
+                    {
+                     "detection_distance":"300",
+                     "direction":"-1",
+                     "group":"enemies",
+                     "running_speed":"200",
+                     "score":"200",
+                     "texture":"slime",
+                     "walking_distance":"100",
+                     "walking_speed":"50"
+                    },
+                 "propertytypes":
+                    {
+                     "detection_distance":"string",
+                     "direction":"string",
+                     "group":"string",
+                     "running_speed":"string",
+                     "score":"string",
+                     "texture":"string",
+                     "walking_distance":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"running_enemy",
                  "visible":true,
                  "width":35,
-                 "x":528.333333333333,
-                 "y":354.333333333333
+                 "x":124.333333333333,
+                 "y":216.333333333333
+                }, 
+                {
+                 "gid":482,
+                 "height":35,
+                 "id":29,
+                 "name":"running_enemy1",
+                 "properties":
+                    {
+                     "detection_distance":"300",
+                     "direction":"-1",
+                     "group":"enemies",
+                     "running_speed":"200",
+                     "score":"200",
+                     "texture":"slime",
+                     "walking_distance":"100",
+                     "walking_speed":"50"
+                    },
+                 "propertytypes":
+                    {
+                     "detection_distance":"string",
+                     "direction":"string",
+                     "group":"string",
+                     "running_speed":"string",
+                     "score":"string",
+                     "texture":"string",
+                     "walking_distance":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"running_enemy",
+                 "visible":true,
+                 "width":35,
+                 "x":223,
+                 "y":95
+                }, 
+                {
+                 "gid":482,
+                 "height":35,
+                 "id":30,
+                 "name":"running_enemy1",
+                 "properties":
+                    {
+                     "detection_distance":"300",
+                     "direction":"-1",
+                     "group":"enemies",
+                     "running_speed":"200",
+                     "score":"200",
+                     "texture":"slime",
+                     "walking_distance":"100",
+                     "walking_speed":"50"
+                    },
+                 "propertytypes":
+                    {
+                     "detection_distance":"string",
+                     "direction":"string",
+                     "group":"string",
+                     "running_speed":"string",
+                     "score":"string",
+                     "texture":"string",
+                     "walking_distance":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"running_enemy",
+                 "visible":true,
+                 "width":35,
+                 "x":223,
+                 "y":95
+                }, 
+                {
+                 "gid":482,
+                 "height":35,
+                 "id":31,
+                 "name":"running_enemy1",
+                 "properties":
+                    {
+                     "detection_distance":"300",
+                     "direction":"-1",
+                     "group":"enemies",
+                     "running_speed":"200",
+                     "score":"200",
+                     "texture":"slime",
+                     "walking_distance":"100",
+                     "walking_speed":"50"
+                    },
+                 "propertytypes":
+                    {
+                     "detection_distance":"string",
+                     "direction":"string",
+                     "group":"string",
+                     "running_speed":"string",
+                     "score":"string",
+                     "texture":"string",
+                     "walking_distance":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"running_enemy",
+                 "visible":true,
+                 "width":35,
+                 "x":223,
+                 "y":95
+                }, 
+                {
+                 "gid":482,
+                 "height":35,
+                 "id":32,
+                 "name":"running_enemy1",
+                 "properties":
+                    {
+                     "detection_distance":"300",
+                     "direction":"-1",
+                     "group":"enemies",
+                     "running_speed":"200",
+                     "score":"200",
+                     "texture":"slime",
+                     "walking_distance":"100",
+                     "walking_speed":"50"
+                    },
+                 "propertytypes":
+                    {
+                     "detection_distance":"string",
+                     "direction":"string",
+                     "group":"string",
+                     "running_speed":"string",
+                     "score":"string",
+                     "texture":"string",
+                     "walking_distance":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"running_enemy",
+                 "visible":true,
+                 "width":35,
+                 "x":223,
+                 "y":95
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -352,7 +514,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":16,
+ "nextobjectid":33,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -401,21 +563,8 @@
          "tilewidth":35
         }, 
         {
-         "columns":1,
-         "firstgid":493,
-         "image":"C:\/Users\/tetin\/Desktop\/SILVER\/MEDIUM\/MEDIUM_0000_Capa-1.png",
-         "imageheight":42,
-         "imagewidth":41,
-         "margin":0,
-         "name":"coin",
-         "spacing":0,
-         "tilecount":1,
-         "tileheight":42,
-         "tilewidth":41
-        }, 
-        {
          "columns":2,
-         "firstgid":494,
+         "firstgid":493,
          "image":"..\/images\/checkpoint.png",
          "imageheight":35,
          "imagewidth":70,
@@ -425,6 +574,19 @@
          "tilecount":2,
          "tileheight":35,
          "tilewidth":35
+        }, 
+        {
+         "columns":1,
+         "firstgid":495,
+         "image":"..\/images\/coin.png",
+         "imageheight":42,
+         "imagewidth":41,
+         "margin":0,
+         "name":"coin",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":42,
+         "tilewidth":41
         }],
  "tilewidth":32,
  "type":"map",

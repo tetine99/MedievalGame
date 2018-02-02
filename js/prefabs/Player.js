@@ -1,12 +1,13 @@
 var MedievalGame = MedievalGame || {};
 
-MedievalGame.Player = function(game_state, position, properties) {
+MedievalGame.Player = function (game_state, position, properties) {
     "use strict";
     MedievalGame.Prefab.call(this, game_state, position, properties);
     this.walking_speed = +properties.walking_speed;
     this.jumping_speed = +properties.jumping_speed;
     this.bouncing = +properties.bouncing;
-    this.score = 0;
+    this.score = +localStorage.player_score || 0;
+    this.lives = +localStorage.player_lives || +properties.lives;
 
     this.game_state.game.physics.arcade.enable(this);
     this.body.collideWorldBounds = true;
@@ -23,7 +24,7 @@ MedievalGame.Player = function(game_state, position, properties) {
 MedievalGame.Player.prototype = Object.create(MedievalGame.Prefab.prototype);
 MedievalGame.Player.prototype.constructor = MedievalGame.Player;
 
-MedievalGame.Player.prototype.update = function() {
+MedievalGame.Player.prototype.update = function () {
     "use strict";
     this.game_state.game.physics.arcade.collide(this, this.game_state.layers.collision);
     this.game_state.game.physics.arcade.collide(this, this.game_state.groups.enemies, this.hit_enemy, null, this);
@@ -57,11 +58,12 @@ MedievalGame.Player.prototype.update = function() {
 
     // dies if touches the end of the screen
     if (this.bottom >= this.game_state.game.world.height) {
+        this.die();
         this.game_state.restart_level();
     }
 };
 
-MedievalGame.Player.prototype.hit_enemy = function(player, enemy) {
+MedievalGame.Player.prototype.hit_enemy = function (player, enemy) {
     "use strict";
     // if the player is above the enemy, the enemy is killed, otherwise the player dies
     if (enemy.body.touching.up) {
@@ -69,6 +71,24 @@ MedievalGame.Player.prototype.hit_enemy = function(player, enemy) {
         enemy.kill();
         player.y -= this.bouncing;
     } else {
+        console.log('test');
+        this.die();
         this.game_state.restart_level();
+    }
+};
+
+MedievalGame.Player.prototype.die = function () {
+    "use strict";
+    console.log(this.lives);
+
+    this.lives -= 1;
+    console.log(this.lives);
+
+
+    this.shooting = false;
+    if (this.lives > 0) {
+        this.game_state.restart_level();
+    } else {
+        this.game_state.game_over();
     }
 };
