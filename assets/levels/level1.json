@@ -28,9 +28,13 @@
       "type": "image",
       "source": "assets/images/goal.png"
     },
-    "items": {
+    "heart": {
       "type": "image",
-      "source": "assets/images/items.png"
+      "source": "assets/images/heart.png"
+    },
+    "fireball": {
+      "type": "image",
+      "source": "assets/images/fireball.png"
     },
     "coin": {
       "type": "spritesheet",
@@ -53,9 +57,9 @@
     "checkpoint": {
       "type": "spritesheet",
       "source": "assets/images/checkpoint.png",
-      "frame_width": 32,
-      "frame_height": 32,
-      "frames": 1
+      "frame_width": 35,
+      "frame_height": 35,
+      "frames": 2
     },
     "level_tilemap": {
       "type": "tilemap",
@@ -67,6 +71,8 @@
     "goals",
     "players",
     "checkpoints",
+    "items",
+    "fireballs",
     "hud"
   ],
   "map": {

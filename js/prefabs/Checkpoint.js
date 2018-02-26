@@ -24,7 +24,9 @@ MedievalGame.Checkpoint.prototype.update = function () {
 
 MedievalGame.Checkpoint.prototype.reach_checkpoint = function () {
     "use strict";
+
+    this.frame = 1;
     // checkpoint was reached
     this.checkpoint_reached = true;
-    this.frame = 1;
+
 };

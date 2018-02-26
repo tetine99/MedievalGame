@@ -1,5 +1,5 @@
 {
-    "assets": { 
+    "assets": {
         "Tileset": { "type": "image", "source": "assets/images/Tileset.png"},
         "tiles_spritesheet": { "type": "image", "source": "assets/images/tiles_spritesheet.png" },
         "hero": {"type": "spritesheet","source": "assets/images/hero.png","frame_width": 16,"frame_height": 16,"frames": 56,"margin": 0,"spacing": 0 },

@@ -15,6 +15,7 @@ MedievalGame.Lives = function (game_state, position, properties) {
 
     this.lives = [];
     this.dead_life = null;
+
     this.create_lives();
 };
 

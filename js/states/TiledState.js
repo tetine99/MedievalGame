@@ -13,7 +13,9 @@ MedievalGame.TiledState = function () {
         "checkpoint": MedievalGame.Checkpoint.prototype.constructor,
         "coin": MedievalGame.Coin.prototype.constructor,
         "score": MedievalGame.Score.prototype.constructor,
-        "lives": MedievalGame.Lives.prototype.constructor
+        "lives": MedievalGame.Lives.prototype.constructor,
+        "life_item": MedievalGame.LifeItem.prototype.constructor,
+        "fireball_item": MedievalGame.FireballItem.prototype.constructor,
     }
 };
 
@@ -54,6 +56,7 @@ MedievalGame.TiledState.prototype.create = function () {
         this.layers[layer.name] = this.map.createLayer(layer.name);
 
         if (layer.properties.collision) { // collision layer
+
             collision_tiles = [];
             layer.data.forEach(function (data_row) { // find tiles used in the layer
                 data_row.forEach(function (tile) {
@@ -65,7 +68,7 @@ MedievalGame.TiledState.prototype.create = function () {
                     }
                 }, this);
             }, this);
-            console.log(collision_tiles)
+            // console.log(collision_tiles);
             this.map.setCollision(collision_tiles, true, layer.name);
         }
     }, this);
@@ -80,7 +83,6 @@ MedievalGame.TiledState.prototype.create = function () {
     }, this);
 
     this.prefabs = {};
-
     for (object_layer in this.map.objects) {
         if (this.map.objects.hasOwnProperty(object_layer)) {
             // create layer objects
@@ -135,14 +137,14 @@ MedievalGame.TiledState.prototype.init_hud = function () {
     this.prefabs["score"] = score;
 
     // on crée les vies et on les affiche en haut
-    lives_position = new Phaser.Point(this.game.world.width * 0.65, 20);
+    lives_position = new Phaser.Point(this.game.world.width * 0.42, 20);
     lives = new MedievalGame.Lives(this, lives_position, {
-        "texture": "hero",
+        "texture": "heart",
         "group": "hud",
-        "frame": 10,
+        "frame": 4,
         "spacing": 16
     });
 
-    this.prefabs["lives"] = lives;
 
+    this.prefabs["lives"] = lives;
 };
