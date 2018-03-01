@@ -26,7 +26,7 @@ MedievalGame.RunningEnemy.prototype.update = function () {
         // player is outside detection range, act like a regular enemy
         direction = (this.body.velocity.x < 0) ? -1 : 1;
         this.body.velocity.x = direction * this.walking_speed;
-        this.scale.setTo(-direction, 1);
+        this.scale.setTo(direction, 1);
         MedievalGame.GroundEnemy.prototype.update.call(this);
     }
 };

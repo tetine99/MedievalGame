@@ -68,7 +68,6 @@ MedievalGame.TiledState.prototype.create = function () {
                     }
                 }, this);
             }, this);
-            // console.log(collision_tiles);
             this.map.setCollision(collision_tiles, true, layer.name);
         }
     }, this);

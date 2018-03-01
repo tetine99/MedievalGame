@@ -17,8 +17,7 @@ MedievalGame.Player = function (game_state, position, properties) {
 
     this.direction = "RIGHT";
 
-    this.animations.add("gauche", [4, 5, 6, 7], 10, true);
-    this.animations.add("droite", [8, 9, 10, 11], 10, true);
+    this.animations.add("walk", [4, 5, 6, 7], 10, true);
 
     this.frame = 10;
     this.anchor.setTo(0.5);
@@ -36,6 +35,7 @@ MedievalGame.Player.prototype.update = function () {
     "use strict";
     this.game_state.game.physics.arcade.collide(this, this.game_state.layers.collision);
     this.game_state.game.physics.arcade.collide(this, this.game_state.groups.enemies, this.hit_enemy, null, this);
+    
     // the player automatically dies if in contact with invincible enemies or enemy fireballs
     this.game_state.game.physics.arcade.overlap(this, this.game_state.groups.invincible_enemies, this.die, null, this);
     this.game_state.game.physics.arcade.overlap(this, this.game_state.groups.enemy_fireballs, this.die, null, this);
@@ -44,7 +44,7 @@ MedievalGame.Player.prototype.update = function () {
     if (this.cursors.right.isDown && this.body.velocity.x >= 0) {
         // move right
         this.body.velocity.x = this.walking_speed;
-        this.animations.play("droite");
+        this.animations.play("walk");
         this.scale.setTo(1, 1);
         this.direction = "RIGHT";
 
@@ -52,7 +52,7 @@ MedievalGame.Player.prototype.update = function () {
     } else if (this.cursors.left.isDown && this.body.velocity.x <= 0) {
         // move left
         this.body.velocity.x = -this.walking_speed;
-        this.animations.play("gauche");
+        this.animations.play("walk");
         this.scale.setTo(1, 1);
         this.direction = "LEFT";
 
@@ -131,7 +131,6 @@ MedievalGame.Player.prototype.shoot = function () {
             "direction": this.direction,
             "speed": this.attack_speed
         };
-        console.log(fireball_properties)
         fireball = new MedievalGame.Fireball(this.game_state, fireball_position, fireball_properties);
     } else {
         // if there is a dead fireball, reset it in the new position

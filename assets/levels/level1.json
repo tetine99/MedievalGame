@@ -4,25 +4,23 @@
       "type": "image",
       "source": "assets/images/castle.png"
     },
-    "monster1": {
-      "type": "image",
-      "source": "assets/images/monster1.png"
+    "slime": {
+      "type": "spritesheet",
+      "source": "assets/images/slime.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 4,
+      "margin": 0,
+      "spacing": 0
     },
-    "monster2": {
-      "type": "image",
-      "source": "assets/images/monster2.png"
-    },
-    "monster3": {
-      "type": "image",
-      "source": "assets/images/monster3.png"
-    },
-    "monster4": {
-      "type": "image",
-      "source": "assets/images/monster4.png"
-    },
-    "monster5": {
-      "type": "image",
-      "source": "assets/images/monster5.png"
+    "red_slime": {
+      "type": "spritesheet",
+      "source": "assets/images/red_slime.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 4,
+      "margin": 0,
+      "spacing": 0
     },
     "goal": {
       "type": "image",
@@ -45,11 +43,11 @@
       "margin": 0,
       "spacing": 0
     },
-    "blackmage": {
+    "wizard": {
       "type": "spritesheet",
-      "source": "assets/images/blackmage.png",
-      "frame_width": 32,
-      "frame_height": 48,
+      "source": "assets/images/wizard.png",
+      "frame_width": 16,
+      "frame_height": 16,
       "frames": 16,
       "margin": 0,
       "spacing": 0
@@ -73,6 +71,7 @@
     "checkpoints",
     "items",
     "fireballs",
+    "coins",
     "hud"
   ],
   "map": {
