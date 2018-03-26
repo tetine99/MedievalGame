@@ -1,27 +1,28 @@
 {
   "assets": {
-    "Tileset": {
+    "castle": {
       "type": "image",
-      "source": "assets/images/Tileset.png"
+      "source": "assets/images/castle.png"
     },
-    "tiles_spritesheet": {
-      "type": "image",
-      "source": "assets/images/tiles_spritesheet.png"
-    },
-    "hero": {
+    "slime": {
       "type": "spritesheet",
-      "source": "assets/images/hero.png",
+      "source": "assets/images/slime.png",
       "frame_width": 16,
       "frame_height": 16,
-      "frames": 56,
+      "frames": 4,
       "margin": 0,
       "spacing": 0
     },
-    "slime": {
-      "type": "image",
-      "source": "assets/images/slime.png"
+    "red_slime": {
+      "type": "spritesheet",
+      "source": "assets/images/red_slime.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 4,
+      "margin": 0,
+      "spacing": 0
     },
-    "fly_spritesheet": {
+    "fly_slime": {
       "type": "spritesheet",
       "source": "assets/images/fly_spritesheet.png",
       "frame_width": 37,
@@ -32,9 +33,31 @@
       "type": "image",
       "source": "assets/images/goal.png"
     },
-    "coin": {
+    "heart": {
       "type": "image",
-      "source": "assets/images/coin.png"
+      "source": "assets/images/heart.png"
+    },
+    "fireball": {
+      "type": "image",
+      "source": "assets/images/fireball.png"
+    },
+    "coin": {
+      "type": "spritesheet",
+      "source": "assets/images/coin.png",
+      "frame_width": 32,
+      "frame_height": 32,
+      "frames": 9,
+      "margin": 0,
+      "spacing": 0
+    },
+    "wizard": {
+      "type": "spritesheet",
+      "source": "assets/images/wizard.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 16,
+      "margin": 0,
+      "spacing": 0
     },
     "checkpoint": {
       "type": "spritesheet",
@@ -45,21 +68,23 @@
     },
     "level_tilemap": {
       "type": "tilemap",
-      "source": "assets/maps/level2.json"
+      "source": "assets/maps/level1.json"
     }
   },
   "groups": [
     "enemies",
     "goals",
     "players",
-    "coins",
     "checkpoints",
+    "items",
+    "fireballs",
+    "coins",
     "hud"
   ],
   "map": {
     "key": "level_tilemap",
     "tileset": [
-      "Tileset"
+      "castle"
     ]
   }
 }
