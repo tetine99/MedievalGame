@@ -1,0 +1,83 @@
+{
+  "assets": {
+    "castle": {
+      "type": "image",
+      "source": "assets/images/castle.png"
+    },
+    "slime": {
+      "type": "spritesheet",
+      "source": "assets/images/slime.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 4,
+      "margin": 0,
+      "spacing": 0
+    },
+    "red_slime": {
+      "type": "spritesheet",
+      "source": "assets/images/red_slime.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 4,
+      "margin": 0,
+      "spacing": 0
+    },
+    "goal": {
+      "type": "image",
+      "source": "assets/images/goal.png"
+    },
+    "heart": {
+      "type": "image",
+      "source": "assets/images/heart.png"
+    },
+    "fireball": {
+      "type": "image",
+      "source": "assets/images/fireball.png"
+    },
+    "coin": {
+      "type": "spritesheet",
+      "source": "assets/images/coin.png",
+      "frame_width": 32,
+      "frame_height": 32,
+      "frames": 9,
+      "margin": 0,
+      "spacing": 0
+    },
+    "wizard": {
+      "type": "spritesheet",
+      "source": "assets/images/wizard.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 16,
+      "margin": 0,
+      "spacing": 0
+    },
+    "checkpoint": {
+      "type": "spritesheet",
+      "source": "assets/images/checkpoint.png",
+      "frame_width": 35,
+      "frame_height": 35,
+      "frames": 2
+    },
+    "level_tilemap": {
+      "type": "tilemap",
+      "source": "assets/maps/level1.json"
+    }
+  },
+  "groups": [
+    "enemies",
+    "goals",
+    "players",
+    "checkpoints",
+    "items",
+    "fireballs",
+    "coins",
+    "hud"
+  ],
+  "map": {
+    "key": "level_tilemap",
+    "tileset": [
+      "castle"
+    ]
+  }
+}

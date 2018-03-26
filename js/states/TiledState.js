@@ -122,7 +122,7 @@ MedievalGame.TiledState.prototype.restart_level = function () {
 MedievalGame.TiledState.prototype.game_over = function () {
     "use strict";
     localStorage.clear();
-    this.game.state.start("BootState", true, false, "assets/levels/level1.json");
+    this.game.state.start("BootState", true, false, "assets/levels/level1_data.json");
 };
 
 MedievalGame.TiledState.prototype.init_hud = function () {

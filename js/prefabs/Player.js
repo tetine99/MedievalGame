@@ -20,7 +20,7 @@ MedievalGame.Player = function (game_state, position, properties) {
     this.animations.add("walk", [4, 5, 6, 7], 10, true);
 
     this.frame = 10;
-    this.anchor.setTo(0.5);
+    this.anchor.setTo(0.5, 0.5);
 
     this.cursors = this.game_state.game.input.keyboard.createCursorKeys();
 
@@ -46,6 +46,7 @@ MedievalGame.Player.prototype.update = function () {
         this.body.velocity.x = this.walking_speed;
         this.animations.play("walk");
         this.scale.setTo(1, 1);
+
         this.direction = "RIGHT";
 
 
@@ -54,6 +55,7 @@ MedievalGame.Player.prototype.update = function () {
         this.body.velocity.x = -this.walking_speed;
         this.animations.play("walk");
         this.scale.setTo(1, 1);
+        this.scale.x *= -1;
         this.direction = "LEFT";
 
     } else {
