@@ -20,7 +20,7 @@ MedievalGame.RunningEnemy.prototype.update = function () {
         // player is inside detection range, run towards it
         direction = (this.game_state.prefabs.player.x < this.x) ? -1 : 1;
         this.body.velocity.x = direction * this.running_speed;
-        this.scale.setTo(-direction, 1);
+        this.scale.setTo(direction, 1);
         this.previous_x = this.x;
     } else {
         // player is outside detection range, act like a regular enemy

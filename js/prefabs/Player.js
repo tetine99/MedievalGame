@@ -10,7 +10,7 @@ MedievalGame.Player = function (game_state, position, properties) {
     this.lives = +localStorage.player_lives || +properties.lives;
     this.attack_rate = +properties.attack_rate;
     this.attack_speed = +properties.attack_speed;
-    this.shooting = false;
+    this.shooting = true;
 
     this.game_state.game.physics.arcade.enable(this);
     this.body.collideWorldBounds = true;
@@ -108,7 +108,6 @@ MedievalGame.Player.prototype.die = function () {
     "use strict";
 
     this.lives -= 1;
-
 
     this.shooting = false;
     if (this.lives > 0) {

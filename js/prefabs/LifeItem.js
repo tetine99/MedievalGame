@@ -3,6 +3,7 @@ var MedievalGame = MedievalGame || {};
 MedievalGame.LifeItem = function (game_state, position, properties) {
     "use strict";
     MedievalGame.Item.call(this, game_state, position, properties);
+
 };
 
 MedievalGame.LifeItem.prototype = Object.create(MedievalGame.Item.prototype);

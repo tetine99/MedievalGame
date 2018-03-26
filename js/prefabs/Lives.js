@@ -11,7 +11,7 @@ MedievalGame.Lives = function (game_state, position, properties) {
     this.fixedRotation = true;
 
     // saving initial position if it gest changed by windows scaling
-    this.initial_position = new Phaser.Point(this.x, this.y);
+    this.initial_position = new Phaser.Point(20,5);
 
     this.lives = [];
     this.dead_life = null;

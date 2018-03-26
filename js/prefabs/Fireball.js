@@ -18,7 +18,7 @@ MedievalGame.Fireball = function (game_state, position, properties) {
 
     this.anchor.setTo(0.5);
     // Fireball uses the same asset as FireballItem, so we make it a little smaller
-    this.scale.setTo(0.75);
+    this.scale.setTo(1);
 };
 
 MedievalGame.Fireball.prototype = Object.create(MedievalGame.Prefab.prototype);
