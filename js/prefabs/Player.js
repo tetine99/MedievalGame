@@ -21,6 +21,7 @@ MedievalGame.Player = function (game_state, position, properties) {
 
     this.frame = 10;
     this.anchor.setTo(0.5, 0.5);
+    this.scale.setTo(2, 2);
 
     this.cursors = this.game_state.game.input.keyboard.createCursorKeys();
 
@@ -35,7 +36,7 @@ MedievalGame.Player.prototype.update = function () {
     "use strict";
     this.game_state.game.physics.arcade.collide(this, this.game_state.layers.collision);
     this.game_state.game.physics.arcade.collide(this, this.game_state.groups.enemies, this.hit_enemy, null, this);
-    
+
     // the player automatically dies if in contact with invincible enemies or enemy fireballs
     this.game_state.game.physics.arcade.overlap(this, this.game_state.groups.invincible_enemies, this.die, null, this);
     this.game_state.game.physics.arcade.overlap(this, this.game_state.groups.enemy_fireballs, this.die, null, this);
@@ -45,7 +46,7 @@ MedievalGame.Player.prototype.update = function () {
         // move right
         this.body.velocity.x = this.walking_speed;
         this.animations.play("walk");
-        this.scale.setTo(1, 1);
+        this.scale.setTo(2,2);
 
         this.direction = "RIGHT";
 
@@ -54,7 +55,7 @@ MedievalGame.Player.prototype.update = function () {
         // move left
         this.body.velocity.x = -this.walking_speed;
         this.animations.play("walk");
-        this.scale.setTo(1, 1);
+        this.scale.setTo(2,2);
         this.scale.x *= -1;
         this.direction = "LEFT";
 
