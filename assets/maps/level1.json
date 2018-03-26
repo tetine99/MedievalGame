@@ -2553,6 +2553,38 @@
                  "width":32,
                  "x":128.666666666667,
                  "y":1021
+                }, 
+                {
+                 "gid":375,
+                 "height":16,
+                 "id":142,
+                 "name":"stone_enemy",
+                 "properties":
+                    {
+                     "direction":"1",
+                     "frame":197,
+                     "group":"enemies",
+                     "score":"150",
+                     "texture":"stone_enemy",
+                     "walking_distance":"200",
+                     "walking_speed":"75"
+                    },
+                 "propertytypes":
+                    {
+                     "direction":"string",
+                     "frame":"int",
+                     "group":"string",
+                     "score":"string",
+                     "texture":"string",
+                     "walking_distance":"string",
+                     "walking_speed":"string"
+                    },
+                 "rotation":0,
+                 "type":"stone_enemy",
+                 "visible":true,
+                 "width":16,
+                 "x":270.666666666667,
+                 "y":1144
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2560,7 +2592,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":142,
+ "nextobjectid":147,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.1",
@@ -2678,6 +2710,19 @@
          "imagewidth":16,
          "margin":0,
          "name":"fireball",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":16,
+         "tilewidth":16
+        }, 
+        {
+         "columns":1,
+         "firstgid":375,
+         "image":"..\/images\/rock.png",
+         "imageheight":16,
+         "imagewidth":16,
+         "margin":0,
+         "name":"stone_enemy",
          "spacing":0,
          "tilecount":1,
          "tileheight":16,

@@ -9,6 +9,7 @@ MedievalGame.TiledState = function () {
         "ground_enemy": MedievalGame.GroundEnemy.prototype.constructor,
         "fly_enemy": MedievalGame.FlyingEnemy.prototype.constructor,
         "running_enemy": MedievalGame.RunningEnemy.prototype.constructor,
+        "stone_enemy": MedievalGame.StoneEnemy.prototype.constructor,
         "goal": MedievalGame.Goal.prototype.constructor,
         "checkpoint": MedievalGame.Checkpoint.prototype.constructor,
         "coin": MedievalGame.Coin.prototype.constructor,

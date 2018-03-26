@@ -1,9 +1,5 @@
 {
   "assets": {
-    "castle": {
-      "type": "image",
-      "source": "assets/images/castle.png"
-    },
     "slime": {
       "type": "spritesheet",
       "source": "assets/images/slime.png",
@@ -22,17 +18,14 @@
       "margin": 0,
       "spacing": 0
     },
-    "goal": {
-      "type": "image",
-      "source": "assets/images/goal.png"
-    },
-    "heart": {
-      "type": "image",
-      "source": "assets/images/heart.png"
-    },
-    "fireball": {
-      "type": "image",
-      "source": "assets/images/fireball.png"
+    "stone_enemy": {
+      "type": "spritesheet",
+      "source": "assets/images/rock.png",
+      "frame_width": 16,
+      "frame_height": 16,
+      "frames": 1,
+      "margin": 0,
+      "spacing": 0
     },
     "coin": {
       "type": "spritesheet",
@@ -58,6 +51,22 @@
       "frame_width": 35,
       "frame_height": 35,
       "frames": 2
+    },
+    "castle": {
+      "type": "image",
+      "source": "assets/images/castle.png"
+    },
+    "goal": {
+      "type": "image",
+      "source": "assets/images/goal.png"
+    },
+    "heart": {
+      "type": "image",
+      "source": "assets/images/heart.png"
+    },
+    "fireball": {
+      "type": "image",
+      "source": "assets/images/fireball.png"
     },
     "level_tilemap": {
       "type": "tilemap",

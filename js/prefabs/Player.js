@@ -96,6 +96,7 @@ MedievalGame.Player.prototype.hit_enemy = function (player, enemy) {
     // if the player is above the enemy, the enemy is killed, otherwise the player dies
     if (enemy.body.touching.up) {
         this.score += enemy.score;
+        console.log(enemy.score)
         enemy.kill();
         player.y -= this.bouncing;
     } else {

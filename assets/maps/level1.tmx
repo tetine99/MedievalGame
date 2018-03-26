@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="32" tileheight="32" infinite="0" nextobjectid="142">
+<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="32" tileheight="32" infinite="0" nextobjectid="147">
  <tileset firstgid="1" name="coin" tilewidth="32" tileheight="32" tilecount="9" columns="9">
   <image source="../images/coin.png" width="288" height="32"/>
  </tileset>
@@ -26,6 +26,9 @@
  </tileset>
  <tileset firstgid="374" name="fireball" tilewidth="16" tileheight="16" tilecount="1" columns="1">
   <image source="../images/fireball.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="375" name="stone_enemy" tilewidth="16" tileheight="16" tilecount="1" columns="1">
+  <image source="../images/rock.png" width="16" height="16"/>
  </tileset>
  <layer name="BackGround" width="100" height="50">
   <data encoding="csv">
@@ -965,6 +968,17 @@
     <property name="group" value="coins"/>
     <property name="score" value="50"/>
     <property name="texture" value="coin"/>
+   </properties>
+  </object>
+  <object id="142" name="stone_enemy" type="stone_enemy" gid="375" x="270.667" y="1144" width="16" height="16">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="frame" type="int" value="197"/>
+    <property name="group" value="enemies"/>
+    <property name="score" value="150"/>
+    <property name="texture" value="stone_enemy"/>
+    <property name="walking_distance" value="200"/>
+    <property name="walking_speed" value="75"/>
    </properties>
   </object>
  </objectgroup>
